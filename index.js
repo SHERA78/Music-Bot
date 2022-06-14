@@ -25,7 +25,7 @@ require("ffmpeg-static");
 require("ytdl-core");
 
 //////////////////
-const prefix = "Your Prefix"
+const prefix = "&"
 /////////////////
 
 
@@ -442,7 +442,7 @@ client.distube
 		message.channel.send('An error encountered: ' + e);
 	});
 
-client.login(process.env.token).catch((err) =>{
+client.login(OTg2MTkwMTgyMjcxMzIwMTI1.GWqvJF.3Aro-JlpEKXdzZlFkMFmLMXIJSJuVakp383h4o).catch((err) =>{
 console.warn("\033[31m Token Invalid")
 })
  
